@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    color: red;
+    font-family: cursive;
+    font-weight: 500;
+    background-image: url(https://imageio.forbes.com/blogs-images/ofx/files/2018/09/OFX3-iStock-492595743-1200x800.jpg?format=jpg&width=960);
+}
+.vip{
+    background-color: aquamarine;
+    width: 120px;
+    height: 250px;
+    margin: auto;
+    margin-top: 30px;
+}
+.hidden{
+    display: none;
+}
+.display-again{
+    background-color: aquamarine;
+    color: darkblue;
+    font-weight: 700;
+}
+.display-again:hover{
+    background-color: rgb(74, 196, 155);
+}
+.display-again:active{
+    background-color: rgb(64, 175, 138);
+    transform: scale(0.8);
+    transition: 0.2s;
+}
